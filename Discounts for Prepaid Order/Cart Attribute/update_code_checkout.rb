@@ -1,4 +1,4 @@
-
+  {{ 'simply-checkout-style.scss.css' | asset_url | stylesheet_tag }}
 <div class='loading_me'>
   <div class="img">
     <p>We're processing...</p>
@@ -41,3 +41,4 @@
   {%- endif -%}
 </script>
 {{ 'simply.checkout-script.js' | asset_url | script_tag }} 
+  
